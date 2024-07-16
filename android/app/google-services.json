@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1010472192485",
+    "project_id": "flexmovies-fa68c",
+    "storage_bucket": "flexmovies-fa68c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010472192485:android:cb2456359fa9462176c70c",
+        "android_client_info": {
+          "package_name": "com.example.flexmovies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBeQjnm0YtMUYj6YSNBD25iY_oxfV1CSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
