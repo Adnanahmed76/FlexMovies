@@ -42,7 +42,7 @@ class Description extends StatelessWidget {
                     child: ModifiedText(
                       color: Colors.white,
                       size: 18,
-                      text: "Average Rating ⭐- ${vote ?? 'N/A'}", // Default value if vote is null
+                      text: "Average Rating ⭐- ${vote ?? 'N/A'}", 
                     ),
                   ),
                 ],
