@@ -1,8 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flexmovies/otp.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 class PhoneHome extends StatefulWidget {
-  const PhoneHome({super.key});
+  final String vid;
+  const PhoneHome({super.key, required this.vid});
 
   @override
   State<PhoneHome> createState() => _PhoneHomeState();
