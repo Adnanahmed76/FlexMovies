@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 class OtpPage extends StatefulWidget {
   final String vid;
-  const OtpPage({super.key, required String vid, required this.vid});
+  const OtpPage({super.key,  required this.vid,});
 
   @override
   State<OtpPage> createState() => _OtpPageState();
