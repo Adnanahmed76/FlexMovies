@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flexmovies/utilis/text.dart';
 import 'package:flexmovies/widgets/toprated.dart';
 import 'package:flexmovies/widgets/trending.dart';
@@ -14,6 +15,9 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> { 
   final user=FirebaseAuth.instance.currentUser;
+  signout()async{
+    await FirebaseAuth.instance.signOut();
+  }
   List trendingmovies=[];
   List topratedmovies=[];
   List tv=[];
@@ -68,7 +72,9 @@ print(tv);
               
               title: ModifiedText(text: "LogOut",size: 22,color: Colors.white,),
                leading: Icon(Icons.logout,),
-              onTap: (){},
+              onTap: (){
+()=>signout();
+              },
             )
           ],
         ),

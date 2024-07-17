@@ -80,7 +80,7 @@ class _PhoneHomeState extends State<PhoneHome> {
   Widget button(){
     return Center(
       child: ElevatedButton(onPressed: (){
-
+sendcode();
       },style: ElevatedButton.styleFrom(
         backgroundColor: Colors.blueAccent,
         padding: EdgeInsets.all(16)
