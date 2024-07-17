@@ -34,23 +34,26 @@ class _PhoneHomeState extends State<PhoneHome> {
   }
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ListView(
-        children: [
-          Image.asset("assets/auth.jpg"),
-          Center(child:Text("Phone Number",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400),) ,),
-          Padding(padding: EdgeInsets.symmetric(horizontal: 25,vertical: 6),
-          child: Text("We Will send you an one time password on this mobile number"),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          phonetext(),
-          SizedBox(
-            height: 10,
-          ),
-          button()
-        ],
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.black,
+        body: ListView(
+          children: [
+            Image.asset("assets/auth.jpg"),
+            Center(child:Text("Phone Number",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400),) ,),
+            Padding(padding: EdgeInsets.symmetric(horizontal: 25,vertical: 6),
+            child: Center(child: Text("We Will send you an one time password on this mobile number",style: TextStyle(fontSize: 20,fontWeight: FontWeight.w300,color: Colors.white),)),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            phonetext(),
+            SizedBox(
+              height: 10,
+            ),
+            button()
+          ],
+        ),
       ),
     );
   }

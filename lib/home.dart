@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flexmovies/phone_home.dart';
 import 'package:flexmovies/utilis/text.dart';
 import 'package:flexmovies/widgets/toprated.dart';
 import 'package:flexmovies/widgets/trending.dart';
@@ -54,31 +55,6 @@ print(tv);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(
-        backgroundColor: Colors.black,
-
-        child: ListView(
-
-          children: [
-            ListTile(
-              title: Center(
-                child: ModifiedText(
-                  text: "Welcome   \n    Flex Movies",color: Colors.white,size: 35,
-                ),
-              ),
-            ),
-            ListTile(
-             
-              
-              title: ModifiedText(text: "LogOut",size: 22,color: Colors.white,),
-               leading: Icon(Icons.logout,),
-              onTap: (){
-()=>signout();
-              },
-            )
-          ],
-        ),
-      ),
       backgroundColor: Colors.black12,
       appBar: AppBar(
         title: ModifiedText(text: "Flex Movies",color: Colors.white,size: 25,)

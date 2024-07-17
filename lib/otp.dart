@@ -40,7 +40,7 @@ catch (e) {
             Image.asset("assets/verify.png",height: 350,width: 350,),
             Center(child: Text("Otp Verication",style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),),),
             Padding(padding: EdgeInsets.symmetric(horizontal: 25,vertical: 30),
-            child: Text("Enter your otp"),
+            child: Text("Enter Your Otp"),
             ),
             SizedBox(height: 20,),
             textcode(),
@@ -78,7 +78,7 @@ backgroundColor: Colors.blue,
 padding: EdgeInsets.all(16)
         ),
         child: Padding(padding: EdgeInsets.symmetric(horizontal: 80),
-        child: Text("Veriry and proced",style: TextStyle(fontSize: 18,
+        child: Text("Veriry and proceed",style: TextStyle(fontSize: 18,
         
         color: Colors.white),),
         
