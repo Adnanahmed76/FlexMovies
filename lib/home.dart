@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flexmovies/utilis/text.dart';
 import 'package:flexmovies/widgets/toprated.dart';
 import 'package:flexmovies/widgets/trending.dart';
@@ -11,7 +12,8 @@ class Home extends StatefulWidget {
   State<Home> createState() => _HomeState();
 }
 
-class _HomeState extends State<Home> {
+class _HomeState extends State<Home> { 
+  final user=FirebaseAuth.instance.currentUser;
   List trendingmovies=[];
   List topratedmovies=[];
   List tv=[];
