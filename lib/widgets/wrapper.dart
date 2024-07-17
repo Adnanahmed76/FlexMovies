@@ -23,7 +23,7 @@ class _WrapperState extends State<Wrapper> {
             return Home();
           }
           else{
-            return PhoneHome();
+            return PhoneHome( vid: '',);
           }
         },),
     );

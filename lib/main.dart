@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(brightness: Brightness.dark,primaryColor: Colors.green),
-      home: PhoneHome(),
+      home: PhoneHome(vid: '',),
     );
   }
 }

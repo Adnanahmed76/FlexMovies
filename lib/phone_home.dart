@@ -45,7 +45,11 @@ class _PhoneHomeState extends State<PhoneHome> {
           SizedBox(
             height: 20,
           ),
-          
+          phonetext(),
+          SizedBox(
+            height: 10,
+          ),
+          button()
         ],
       ),
     );
