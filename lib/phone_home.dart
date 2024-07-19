@@ -40,16 +40,16 @@ class _PhoneHomeState extends State<PhoneHome> {
         body: ListView(
           children: [
             Image.asset("assets/auth.jpg"),
-            Center(child:Text("Phone Number",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400),) ,),
-            Padding(padding: EdgeInsets.symmetric(horizontal: 25,vertical: 6),
-            child: Center(child: Text("We Will send you an one time password on this mobile number",style: TextStyle(fontSize: 20,fontWeight: FontWeight.w300,color: Colors.white),)),
+            Center(child:Text("Your Phone ! ",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w400),) ,),
+            Padding(padding: EdgeInsets.symmetric(horizontal: 45,vertical: 10),
+            child: Center(child: Text("    We Will send you an one time\n password on this mobile number",style: TextStyle(fontSize: 20,fontWeight: FontWeight.w300,color: Colors.white),)),
             ),
             SizedBox(
               height: 20,
             ),
             phonetext(),
             SizedBox(
-              height: 10,
+              height: 40,
             ),
             button()
           ],
@@ -90,9 +90,9 @@ sendcode();
       ),
       child: Padding(padding: EdgeInsets.symmetric(horizontal: 90),
       child: Text(
-        "Resend Otp",
+        "Recieve OTP",
         style: TextStyle(
-
+color: Colors.white,fontSize: 20
         ),
       ),
       ),

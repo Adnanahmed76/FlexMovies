@@ -38,9 +38,9 @@ catch (e) {
           shrinkWrap: true,
           children: [
             Image.asset("assets/verify.png",height: 350,width: 350,),
-            Center(child: Text("Otp Verication",style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),),),
+            Center(child: Text("OTP Verication",style: TextStyle(fontSize: 30,fontWeight: FontWeight.w600),),),
             Padding(padding: EdgeInsets.symmetric(horizontal: 25,vertical: 30),
-            child: Text("Enter Your Otp"),
+            child: Text("Enter Your OTP",style: TextStyle(fontSize: 25,color: Colors.white,fontWeight: FontWeight.w400),),
             ),
             SizedBox(height: 20,),
             textcode(),
