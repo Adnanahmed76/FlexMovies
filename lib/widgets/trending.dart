@@ -59,7 +59,7 @@ class TrendingMovies extends StatelessWidget {
                           ModifiedText(
                             text: trending?[index]['title'] ?? 'Loading',
                             size: 15,
-                            color: Colors.white,
+                            color: Colors.black,
                           ),
                         ],
                       ),
