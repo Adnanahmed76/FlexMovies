@@ -31,7 +31,7 @@ class Description extends StatelessWidget {
                     child: Container(
                       height: 250,
                       width: MediaQuery.of(context).size.width,
-                      child: bannerurl !=  
+                      child: bannerurl != null
                         ? Image.network(bannerurl!, fit: BoxFit.cover) 
                         : Container(color: Colors.grey),
                     ),
