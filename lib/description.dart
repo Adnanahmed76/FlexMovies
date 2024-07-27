@@ -2,7 +2,7 @@ import 'package:flexmovies/utilis/text.dart';
 import 'package:flutter/material.dart';
 
 class Description extends StatelessWidget {
-  final String? original_name, description, bannerurl, posterurl, vote, first_air_date;
+  final String? original_name, description, , posterurl, vote, first_air_date;
 
   const Description({
     super.key,
